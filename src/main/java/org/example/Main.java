@@ -10,13 +10,17 @@ public class Main {
         System.out.println("ბოდიში გვიან რომ ვნახე ლექცია და დავალება დავაგვიანე,არაუშავს?:  ");
         String str = scanner.nextLine();
 
-        while (!str.equals("არაუშავს")) {
+        String y = "არაუშავს";
+        String b= "კიდევ სცადეთ, პატიების უნარი დიდი ნიჭია : ";
+        String d= "ანუ ბოდიში მიღებულია";
 
-            System.out.println("კიდევ სცადეთ, პატიების უნარი დიდი ნიჭია : ");
+        while (!str.equals(y)) {
+
+            System.out.println(b);
             str = scanner.nextLine();
         }
 
-        System.out.println("ანუ ბოდიში მიღებულია!");
+        System.out.println(d);
 
     }
 }
